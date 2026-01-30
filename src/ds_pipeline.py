@@ -1,9 +1,14 @@
 # Imports
+import matplotlib.pyplot as plt
+import numpy as np
+from pathlib import Path
+
 from sklearn.datasets import fetch_california_housing
 from sklearn.model_selection import train_test_split
 from sklearn.neural_network import MLPRegressor
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
+
 
 
 def main():
