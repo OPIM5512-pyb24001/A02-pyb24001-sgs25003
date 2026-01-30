@@ -40,5 +40,7 @@ The goal is to practice GitHub collaboration using branches, pull requests, revi
 Install required packages:
 ```bash
 pip install -r requirements.txt
+python src/ds_pipeline.py
+
 
 
